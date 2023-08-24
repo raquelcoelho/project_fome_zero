@@ -290,7 +290,7 @@ with st.container():
     
     cols = ['restaurant_id', 'restaurant_name', 'country_name', 'city', 'cuisines_categories', 'average_cost_for_two', 'aggregate_rating', 'votes']
     top_rest = df1.loc[: , cols].sort_values(['aggregate_rating', 'restaurant_id'], ascending=[False, True]).head(10)
-    st.dataframe(top_rest, hide_index=True)
+    st.dataframe(top_rest)
    # st.dataframe(top_rest, hide_index=True,
    #              column_config={
    #                  "restaurant_id": st.column_config.NumberColumn( format="%.0f" ),
