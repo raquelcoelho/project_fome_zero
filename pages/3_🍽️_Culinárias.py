@@ -292,7 +292,7 @@ with st.container():
     top_rest = df1.loc[: , cols].sort_values(['aggregate_rating', 'restaurant_id'], ascending=[False, True]).head(10)
     st.dataframe(top_rest, hide_index=True,
                  column_config={
-                     "restaurant_id": st.column_config.NumberColumn( width='small', format='%.0f' ),
+                     restaurant_id: st.column_config.NumberColumn( width='small', format='%.0f' ),
                      "average_cost_for_two": st.column_config.NumberColumn( width='small', format='%.0f' ),
                      "votes": st.column_config.NumberColumn( width='small', format='%.0f' )}
                 )
