@@ -293,7 +293,7 @@ with st.container():
     st.dataframe(top_rest, hide_index=True,
                  column_config={
                      "restaurant_id": st.column_config.NumberColumn( format="%.0f" ),
-                     "average_cost_for_two": st.column_config.NumberColumn( format="%.0f" ),
+                     "average_cost_for_two": st.column_config.NumberColumn( format="%.2f" ),
                      "votes": st.column_config.NumberColumn( format="%.0f" )}
                 )
 
