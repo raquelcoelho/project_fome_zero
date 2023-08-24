@@ -5,7 +5,7 @@ from PIL import Image
 import plotly.express as px
 
 
-st.set_page_config( page_title="Visão Cidades", page_icon="🏙️", layout="wide" )
+st.set_page_config( page_title="Visão Cidades", page_icon="🏙️", layout="centered" )
 
 # =======================================================================================================================
 # Funções
