@@ -6,7 +6,7 @@ import plotly.express as px
 import inflection
 
 
-st.set_page_config( page_title="Visão Culinárias", page_icon="🍽️", layout="centered" )
+st.set_page_config( page_title="Visão Culinárias", page_icon="🍽️", layout="wide" )
 
 # =======================================================================================================================
 # Funções
